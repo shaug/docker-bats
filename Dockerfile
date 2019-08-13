@@ -17,7 +17,7 @@ COPY --from=dependencies-solver /bats/node_modules/bats-support /opt/bats-helper
 COPY --from=dependencies-solver /bats/node_modules/bats-file /opt/bats-helpers/bats-file
 COPY --from=dependencies-solver /bats/node_modules/bats-assert /opt/bats-helpers/bats-assert
 
-RUN apk add --no-cache bash \
+RUN apk add --no-cache bash ncurses \
   && ln -s /opt/bats/libexec/bats-core/bats /sbin/bats
 
 WORKDIR /tests
