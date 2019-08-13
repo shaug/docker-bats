@@ -1,0 +1,14 @@
+{
+  "name": "infopen-bats",
+  "version": "1.0.0",
+  "description": "Dependencies management",
+  "private": "true",
+  "author": "Alexandre Chaussier <a.chaussier@infopen.pro>",
+  "license": "ISC",
+  "devDependencies": {
+    "bats": "git+https://github.com/bats-core/bats-core.git#version-1.2.0-dev",
+    "bats-support": "git+https://github.com/ztombol/bats-support.git#v0.3.0",
+    "bats-assert": "git+https://github.com/jasonkarns/bats-assert-1.git#v2.0.0",
+    "bats-file": "git+https://github.com/ztombol/bats-file.git#v0.2.0"
+  }
+}
