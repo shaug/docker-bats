@@ -1,8 +1,9 @@
 FROM node:alpine as dependencies-solver
 RUN apk add --no-cache git
-COPY package*.json /bats/
+COPY package.json /bats/
+COPY yarn.lock /bats/
 WORKDIR /bats
-RUN npm install
+RUN yarn install
 
 # Minimalistic image
 FROM alpine:3.7
