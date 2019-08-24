@@ -10,6 +10,10 @@
   version "0.2.0"
   resolved "git+https://github.com/ztombol/bats-file.git#2fddb2b831d65cdf2e411f3b47f4677fbb15729c"
 
+"bats-mock@git+https://github.com/grayhemp/bats-mock.git#v1.0-beta.1":
+  version "0.0.0"
+  resolved "git+https://github.com/grayhemp/bats-mock.git#ac1a4475f44b6404e531614d18b25c9019b74013"
+
 "bats-support@git+https://github.com/ztombol/bats-support.git#v0.3.0":
   version "0.3.0"
   resolved "git+https://github.com/ztombol/bats-support.git#24a72e14349690bcbf7c151b9d2d1cdd32d36eb1"

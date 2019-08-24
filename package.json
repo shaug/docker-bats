@@ -9,6 +9,7 @@
     "bats": "git+https://github.com/bats-core/bats-core.git#version-1.2.0-dev",
     "bats-assert": "git+https://github.com/jasonkarns/bats-assert-1.git#v2.0.0",
     "bats-file": "git+https://github.com/ztombol/bats-file.git#v0.2.0",
+    "bats-mock": "git+https://github.com/grayhemp/bats-mock.git#v1.0-beta.1",
     "bats-support": "git+https://github.com/ztombol/bats-support.git#v0.3.0"
   }
 }

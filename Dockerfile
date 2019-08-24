@@ -16,6 +16,7 @@ COPY --from=dependencies-solver /bats/node_modules/bats /opt/bats
 # Bats helpers
 COPY --from=dependencies-solver /bats/node_modules/bats-assert /opt/bats-helpers/bats-assert
 COPY --from=dependencies-solver /bats/node_modules/bats-file /opt/bats-helpers/bats-file
+COPY --from=dependencies-solver /bats/node_modules/bats-mock /opt/bats-helpers/bats-mock
 COPY --from=dependencies-solver /bats/node_modules/bats-support /opt/bats-helpers/bats-support
 
 RUN apk add --no-cache bash ncurses \
