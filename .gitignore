@@ -1,0 +1,10 @@
+#
+# Vim
+#
+*.swo
+*.swp
+
+#
+# Node
+#
+node_modules/
