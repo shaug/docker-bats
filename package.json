@@ -1,7 +1,7 @@
 {
-  "name": "infopen-bats",
+  "name": "shaug-bats",
   "version": "1.0.0",
-  "description": "Dependencies management",
+  "description": "Dependencies management for shaug-bats",
   "private": "true",
   "author": "Alexandre Chaussier <a.chaussier@infopen.pro>",
   "license": "ISC",

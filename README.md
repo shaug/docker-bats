@@ -10,3 +10,9 @@ This repository manage Docker image build configuration to have an image with:
 
 The target is to use the latest versions of these projects and build an image
 to test BASH scripts.
+
+Also installs the following packages:
+
+* bash
+* ncurses
+* jq
