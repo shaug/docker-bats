@@ -19,7 +19,7 @@ COPY --from=dependencies-solver /bats/node_modules/bats-file /opt/bats-helpers/b
 COPY --from=dependencies-solver /bats/node_modules/bats-mock /opt/bats-helpers/bats-mock
 COPY --from=dependencies-solver /bats/node_modules/bats-support /opt/bats-helpers/bats-support
 
-RUN apk add --no-cache bash ncurses jq \
+RUN apk add --no-cache bash ncurses jq coreutils \
   && ln -s /opt/bats/libexec/bats-core/bats /sbin/bats
 
 WORKDIR /tests
