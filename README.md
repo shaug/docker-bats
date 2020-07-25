@@ -16,3 +16,5 @@ Also installs the following packages:
 * bash
 * ncurses
 * jq
+* coreutils
+* tzdata
